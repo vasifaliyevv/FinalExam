@@ -1,0 +1,40 @@
+.footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #212529;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.foot{
+    width: 71%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footright{
+    display: flex;
+    color: #999999
+    ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    span{
+        color: white !important;
+
+            }
+            span:hover{
+                color: #EC1D25 !important;
+                cursor: pointer;
+                transition: 1200ms;
+            }
+}
+.footleft{
+    width: 100px;
+    
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+   
+}

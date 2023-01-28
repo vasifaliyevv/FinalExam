@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.itailanfood{
+    margin-top: 100px;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    .itailanmain{
+        width: 71%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .itailanpicture{
+            img{
+                border-radius: 10px;
+            }
+        }
+        .itailantext{
+            width: 38%;
+            height: 28vh;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            display: flex;
+            text-align: center;
+            .story{
+                cursor: pointer;
+            }
+            .story:hover{
+                color: #EC1D25;
+                transition: 1500ms;
+            }
+            h3{
+                margin-top: -20px;
+                font-size: 50px;
+                font-weight: 700;
+                font-family: 'Poppins', sans-serif;
+            }
+            span{
+                font-size: 30px;
+                font-weight: 400;
+                font-family: 'Courgette', cursive;
+                color: #D61C22
+                ;
+            }
+            p{
+                font-size: 15px;
+                line-height: 25.5px;
+                font-weight: 400;
+                font-family: 'Montserrat', sans-serif;
+                color: #666666;
+            }
+            
+        }
+        .itailanpicture{
+            img:hover{
+                transform: scale(0.9);
+                transition: 1200ms;
+            }
+        }
+    }
+}
+
+.discover{
+    background-image: url("./discover.jpg");
+    background-size: 100%;
+margin-top: 50px;
+    width: 100%;
+    height: 32vh;
+    background-color: red;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    span{
+        color: #D61C22;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Courgette', cursive;
+    }
+    h3{
+        margin-top: -165px;
+        font-size: 50px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+color: white;
+    }
+}
+.restuarants{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .restuarantsmain{
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        .restuarant{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            margin-top: 30px;
+            height: 400px;
+            width: 370px;
+            align-items: flex-start;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            h4{
+                font-size: 22px;
+        font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+            }
+            h4:hover{
+                color: #EC1D25;
+                transition: 1200ms;
+                cursor: pointer;
+
+            }
+            p{
+                font-size: 15px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+            }
+            img{
+                width: 370px;
+                height: 220px;
+                border-radius: 10px;
+            }
+            img:hover{
+                -webkit-transform: scale(1);
+	transform: scale(0.97);
+                
+            }
+            .learnmore{
+                font-weight: 400;
+                font-size: 12px;
+                cursor: pointer;
+                font-family: 'Montserrat', sans-serif;
+            }
+            .learnmore:hover{
+                color: #EC1D25;
+                transition: 1200ms;
+            }
+        }
+    }
+}
+
+.addrestuarant{
+    width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+    .link{
+        text-decoration: none;
+        color: inherit;
+        list-style-type: none;
+    }
+}
+.sort{
+    margin-top: 50px;
+    button{
+        margin-left: 500px;
+        width: 300px;
+        height: 40px;
+        align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    }
+    
+    
+    
+    button:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    }
+    
+    button:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+    }
+    
+    button:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+    }
+}
